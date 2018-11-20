@@ -2,7 +2,10 @@
 /*	Group 20 PRO100 	    */
 /*	License: none (Public)	*/
 
-html, head, body, title, meta, link, header, section, article, footer{
+/* LOVLIGE HTML-TAGER
+
+html, head, body, title, meta, link, header, section, article, footer
+
     /* LOVLIGE CSS-EGENSKAPER */
     position, left, right, bottom, top, z-index;
     transition, animation
@@ -17,7 +20,7 @@ html, head, body, title, meta, link, header, section, article, footer{
     opacity
     cursor
     filter
-}
+*/
 
 div{
 }
