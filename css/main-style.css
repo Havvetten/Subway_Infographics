@@ -1,16 +1,16 @@
-/*	Subway Infographics	    */
-/*	Group 20 PRO100 	    */
-/*	License: none (Public)	*/
+/*	Subway Infographics	        */
+/*	Group 20 PRO100 	        */
+/*	License: none (Public)	    */
 
 /*
     LOVLIGE HTML-TAGER
 
-html, head, body, title, meta, link, header, section, article, footer
-div
-h1, h2, h3, h4, h5, h6
-p, span
-ul, ol, li
-a, input, img, audio
+    html, head, body, title, meta, link, header, section, article, footer
+    div
+    h1, h2, h3, h4, h5, h6
+    p, span
+    ul, ol, li
+    a, input, img, audio
 
     LOVLIGE CSS-EGENSKAPER
 
@@ -58,8 +58,7 @@ eksempel på et id-element med animatsjon
 }
 */
 
-
-
+/* CONTAINER EKSEMPEL */
 #container{
     width: 1200px;
     height: 768px;
