@@ -1,6 +1,39 @@
-/*	Subway Infographics	*/
-/*	Group 20 PRO100 	*/
+/*	Subway Infographics	    */
+/*	Group 20 PRO100 	    */
 /*	License: none (Public)	*/
+
+html, head, body, title, meta, link, header, section, article, footer{
+    /* LOVLIGE CSS-EGENSKAPER */
+    position, left, right, bottom, top, z-index;
+    transition, animation
+    padding, border og margin
+    width, height, min-width, min-height
+    background
+    color, font-family, font-size, text-align, text-decoration
+    display
+    overflow
+    cursor
+    transform
+    opacity
+    cursor
+    filter
+}
+
+div{
+}
+
+h1, h2, h3, h4, h5, h6{
+}
+
+p, span{
+}
+
+ul, ol, li{
+}
+
+a, input, img, audio{
+}
+
 
 #container{
     width: 1200px;
