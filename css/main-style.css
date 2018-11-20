@@ -2,11 +2,18 @@
 /*	Group 20 PRO100 	    */
 /*	License: none (Public)	*/
 
-/* LOVLIGE HTML-TAGER
+/*
+    LOVLIGE HTML-TAGER
 
 html, head, body, title, meta, link, header, section, article, footer
+div
+h1, h2, h3, h4, h5, h6
+p, span
+ul, ol, li
+a, input, img, audio
 
-    /* LOVLIGE CSS-EGENSKAPER */
+    LOVLIGE CSS-EGENSKAPER
+
     position, left, right, bottom, top, z-index;
     transition, animation
     padding, border og margin
@@ -22,20 +29,23 @@ html, head, body, title, meta, link, header, section, article, footer
     filter
 */
 
-div{
-}
+/* ANIMASJONER 
 
-h1, h2, h3, h4, h5, h6{
-}
+eksempel på et id-element med animatsjon
 
-p, span{
-}
+#castleTower{
+    width: 230px;
+    top: 134px;
+    left: 300px;
 
-ul, ol, li{
+    animation-name: castleTowerDown;
+    animation-duration: 5s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
+*/
 
-a, input, img, audio{
-}
 
 
 #container{
