@@ -38,11 +38,23 @@ eksempel på et id-element med animatsjon
     top: 134px;
     left: 300px;
 
-    animation-name: castleTowerDown;
+    animation-name: navnPåAnimasjonen;
     animation-duration: 5s;
     animation-timing-function: ease-out;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+}
+@keyframes navnPåAnimasjonen{
+    0%{
+        width: 230px;
+        top: 134px;
+        left: 487px;
+    }
+    100%{
+    width: 230px;
+    top: 370px;
+    left: 487px;
+    }
 }
 */
 
