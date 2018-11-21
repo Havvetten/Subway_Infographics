@@ -1,0 +1,188 @@
+#gruppe20{
+    position: absolute;
+    background-color: lightgray;
+    display: block;
+    width: 200px;
+    height: 40px;
+    padding: auto;
+    text-align: center;
+    border-style: none;
+    border-radius: 2rem;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    z-index: 10;
+}
+.medlem{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    z-index: 0;
+}
+#henrik{
+    left: 210px;
+    background-color: lightgray;
+    visibility: hidden;
+    z-index: 5;
+}
+#maria{
+    left: 270px;
+    background-color: lightcoral;
+    visibility: hidden;
+    z-index: 4;
+}
+#maren{
+    left: 330px;
+    background-color: lightseagreen;
+    visibility: hidden;
+    z-index: 3;
+}
+#veronica{
+    left: 390px;
+    background-color: lightgreen;
+    visibility: hidden;
+    z-index: 2;
+}
+#benjamin{
+    left: 450px;
+    background-color: lightsalmon;
+    visibility: hidden;
+    z-index: 1;
+}
+
+#gruppe20:hover ~ #henrik{
+    
+    animation-name: memberImageFloatLeft;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes memberImageFloatLeft{
+    0%{
+        left: 10px;
+        visibility: visible;
+    }
+    100%{
+        left: 210px; 
+        visibility: visible;
+    }
+}
+
+#gruppe20:hover ~ #maria{
+    
+    animation-name: mariaImageFloatLeft;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes mariaImageFloatLeft{
+    0%{
+        left: 210px;
+        visibility: visible;
+    }
+    100%{
+        left: 270px;
+        visibility: visible;
+    }
+}
+
+#gruppe20:hover ~ #maren{
+    
+    animation-name: marenImageFloatLeft;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0.6s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes marenImageFloatLeft{
+    0%{
+        left: 270px;
+        visibility: visible;
+    }
+    100%{
+        left: 330px;
+        visibility: visible;
+    }
+}
+
+#gruppe20:hover ~ #veronica{
+    
+    animation-name: veronicaImageFloatLeft;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0.7s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes veronicaImageFloatLeft{
+    0%{
+        left: 330px;
+        visibility: visible;
+    }
+    100%{
+        left: 390px;
+        visibility: visible;
+    }
+}
+
+#gruppe20:hover ~ #benjamin{
+    
+    animation-name: benjaminImageFloatLeft;
+    animation-duration: 0.1s;
+    animation-timing-function: ease-out;
+    animation-delay: 0.8s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes benjaminImageFloatLeft{
+    0%{
+        left: 390px;
+        visibility: visible;
+    }
+    100%{
+        left: 450px;
+        visibility: visible;
+    }
+}
+
+.names{
+    position: absolute;
+    top: 50px;
+    font-family: sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    transform: rotate(45deg);
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+    
+}
+#henrikName{
+    left: 230px;
+}
+#mariaName{
+    left: 290px;
+}
+#marenName{
+    left: 350px;
+    
+}
+#veronicaName{
+    left: 410px;
+    
+}
+#benjaminName{
+    left: 470px;
+}
+
+#gruppe20:hover ~ .names{
+    opacity: 1;
+}
+
