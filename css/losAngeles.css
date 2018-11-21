@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="desctiption" content="Subway Infographics">
+    <meta name="keywaords" content="Gruppe20,Metro,School">
+    <meta name="author" content="Gruppe20">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+  <!--- HUSK Å ENDRE OVERSKRIFT --->
+    <title>Los Angeles | Gruppe20</title>
+  
+  <!--- LINKER TIL CSS-FILER --->
+    <link rel="stylesheet" type="text/css" href="css/losAngeles.css">
+    
+</head>
+<body>
+    <div id="container">
+    
+    <header>
+        
+        <h1>Los Angeles</h1>
+        
+    </header>
+    
+    <main>
+        
+      <!--- LEGG INN ELEMENTER UNDER DENNE --->
+        <img id="backgroundHill" src="elements/losAngelesBackgroundhills@2x.png">
+        <img id="beach" src="elements/losAngelesBeach@2x.png">
+        <img id="road" src="elements/losAngelesRoad@2x.png">
+        <img id="sidewalk" src="elements/losAngelesSidewalk@2x.png">
+        <img id="tracks" src="elements/losAngelesTracks@2x.png">
+        <img id="water" src="elements/losAngelesWater@2x.png">
+        
+        <img id="palmOne" src="elements/losAngelesPalm@2x.png">
+        <img id="palmTwo" src="elements/losAngelesPalmTwo@2x.png">
+        <img id="supershop" src="elements/losAngelesSupershop@2x.png">
+        <img id="surfturf" src="elements/losAngelesSurfturf@2x.png">
+        
+        <img id="metro" src="elements/blueLineMetroLA@2x.png">
+        
+        <img id="carOne" class="car" src="elements/carOne@3x.png">
+        <img id="carTwo" class="car" src="elements/carTwo@3x.png">
+    
+    </main>
+ 
+  </div>
+</body>
+</html>
