@@ -1,0 +1,11 @@
+#platform{
+    position: absolute;
+    width: 1200px;
+    bottom: 0;
+    
+}
+#platformOtherside{
+    position: absolute;
+    width: 1200px;
+    bottom: 100px;
+}
