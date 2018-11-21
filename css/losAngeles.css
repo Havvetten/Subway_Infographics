@@ -1,51 +1,100 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="desctiption" content="Subway Infographics">
-    <meta name="keywaords" content="Gruppe20,Metro,School">
-    <meta name="author" content="Gruppe20">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+#container{
+    width: 1200px;
+    height: 768px;
+    margin: auto; /* asdafsd */
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: lightcyan;
+    position: relative;
+    overflow: hidden; /* sjuler alt utenfor blocken */
+}
+
+#backgroundHill{
+    position: absolute;
+    width: 100%;
+    bottom: 330px;
+}
+#beach{
+    position: absolute;
+    width: 100%;
+    bottom: 125px;
+}
+#road{
+    position: absolute;
+    width: 1400px;
+    height: 40px;
+    bottom: 195px;
+    left: -10px;
+    z-index: 1;
+}
+#sidewalk{
+    position: absolute;
+    width: 100%;
+    bottom: 230px;
+}
+#tracks{
+    position: absolute;
+    width: 100%;
+    bottom: 260px;
+}
+#water{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+#miniWall{
+    position: absolute;
+    width: 1200px;
+    height: 100px;
+    background-color: darkolivegreen;
     
+    bottom: 260px;
     
-  <!--- HUSK Å ENDRE OVERSKRIFT --->
-    <title>Los Angeles | Gruppe20</title>
-  
-  <!--- LINKER TIL CSS-FILER --->
-    <link rel="stylesheet" type="text/css" href="css/losAngeles.css">
-    
-</head>
-<body>
-    <div id="container">
-    
-    <header>
-        
-        <h1>Los Angeles</h1>
-        
-    </header>
-    
-    <main>
-        
-      <!--- LEGG INN ELEMENTER UNDER DENNE --->
-        <img id="backgroundHill" src="elements/losAngelesBackgroundhills@2x.png">
-        <img id="beach" src="elements/losAngelesBeach@2x.png">
-        <img id="road" src="elements/losAngelesRoad@2x.png">
-        <img id="sidewalk" src="elements/losAngelesSidewalk@2x.png">
-        <img id="tracks" src="elements/losAngelesTracks@2x.png">
-        <img id="water" src="elements/losAngelesWater@2x.png">
-        
-        <img id="palmOne" src="elements/losAngelesPalm@2x.png">
-        <img id="palmTwo" src="elements/losAngelesPalmTwo@2x.png">
-        <img id="supershop" src="elements/losAngelesSupershop@2x.png">
-        <img id="surfturf" src="elements/losAngelesSurfturf@2x.png">
-        
-        <img id="metro" src="elements/blueLineMetroLA@2x.png">
-        
-        <img id="carOne" class="car" src="elements/carOne@3x.png">
-        <img id="carTwo" class="car" src="elements/carTwo@3x.png">
-    
-    </main>
- 
-  </div>
-</body>
-</html>
+}
+
+#palmOne{
+    position: absolute;
+    width: 10%;
+    bottom: 170px;
+    left: 100px;
+    z-index: 100;
+}
+#palmTwo{
+    position: absolute;
+    width: 10%;
+    bottom: 250px;
+    right: 0px;
+}
+#supershop{
+    position: absolute;
+    width: 15%;
+    bottom: 255px;
+    right: 250px;
+}
+#surfturf{
+    position: absolute;
+    width: 15%;
+    bottom: 250px;
+    right: 50px;
+}
+
+#metro{
+    position: absolute;
+    width: 500px;
+    bottom: 335px;
+}
+
+.car{
+    position: absolute;
+    width: 12%;
+}
+#carOne{
+    bottom: 200px;
+    z-index: 2;
+}
+#carTwo{
+    bottom: 200px;
+    z-index: 2;
+    left: 200px;
+}
+
